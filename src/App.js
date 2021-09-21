@@ -24,7 +24,7 @@ function App() {
               <td>{element.name}</td>
               <td>{element.popularity}</td>
               <td>{element.wonOscar ? "🏆" : ""}</td>
-              <td>{element.wonEmmy  ? "" : "🏆"}</td>
+              <td>{element.wonEmmy  ? "🏆" : ""}</td>
             </tr>
           )
         })}
