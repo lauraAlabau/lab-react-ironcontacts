@@ -81,7 +81,7 @@ function App() {
               <td>{element?.wonOscar ? "🏆" : ""}</td>
               <td>{element?.wonEmmy  ? "🏆" : ""}</td>
               <td>  
-                <button onClick={() =>{deleteContact(element.id)}}>Delete</button> 
+                <button className="delete" onClick={() =>{deleteContact(element.id)}}>X</button> 
               </td>
             </tr>
           )
